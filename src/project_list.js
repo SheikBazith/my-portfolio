@@ -22,7 +22,7 @@ const project_list = [
         imgURL:
           "images/projects/landing.png",
         desc: "A simple responsive landing page. Template taken from figma.",
-        webLink: "https://nexcent-landing-pi.vercel.app/",
+        webLink: "https://nexcent-landing-lime.vercel.app/",
       },
   ];
   
