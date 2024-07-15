@@ -56,13 +56,13 @@ function App() {
       <Tools />
       <div  className='flex flex-col justify-center items-center gap-8 bg-[#eeeade] dark:bg-[#0d0d0d] pt-12 pb-12'>
       <h1 className=' text-4xl dark:text-white'>My Skills</h1>
-      <div className='flex flex-col lg:flex-row gap-3'>
+      <div className='flex flex-row flex-wrap justify-center items-center gap-3 w-[90%]'>
       {skill_list.map(createSkillCard)}
       </div>
       </div>
       <div id='projects' className='flex flex-col min-h-[90vh] justify-center items-center gap-8 pt-12 pb-12 bg-[#fdb854] dark:bg-[#29cb8c]'>
       <h1 className='text-4xl dark:text-white'>My Works</h1>
-      <div className='flex flex-col lg:flex-row gap-8 '>
+      <div className='flex flex-row flex-wrap justify-center items-center gap-3 w-[90%]'>
       {project_list.map(createProjectCard)}
       </div>
       </div>
